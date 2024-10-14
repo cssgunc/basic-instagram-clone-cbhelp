@@ -1,1 +1,64 @@
+.info{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    gap: 100px;
 
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.middle_top{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.bars{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    font-size: 25px;
+    justify-content: center;
+}
+.count{
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    gap: 100px;
+    justify-content:center;
+}
+.light{
+    color: grey;
+}
+.name{
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    gap:10px;
+}
+.profile{
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    gap:100px;
+    justify-content:center;
+}
+.border{
+    border-style: solid;
+    border-color: gray;
+    background-color: gray;
+}
+.side{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:30px;
+    font-size: 30px;
+}
